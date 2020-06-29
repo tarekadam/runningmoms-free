@@ -1,0 +1,231 @@
+<!DOCTYPE html><html lang=en><head><script async src="https://www.googletagmanager.com/gtag/js?id=UA-64589781-4"></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-64589781-4');</script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><link href="//fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet type=text/css><link href="//fonts.googleapis.com/css?family=Racing+Sans+One" rel=stylesheet type=text/css><script>var VueApp;
+
+        var TRAFFICJAM_DOMAIN = 'IO1392645434';
+        var STRIPE_COMPANY = '';
+        var STRIPE_LOGO = '/Stripe-128x128.png';</script><script src=//cdn.trafficjam.io/v1.js><!-- Fixed by deploy.sh --></script><script src=//checkout.stripe.com/checkout.js></script><title>RunningMoms</title><style>body, html {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+            background-image: url('/bg.png');
+        }
+
+        body {
+            display: grid;
+            justify-items: center;
+            align-items: center;
+        }
+
+        body > .container {
+            border: 1px solid #dedede;
+            padding: 3em;
+            background-color: #ffffff;
+        }
+
+        #logo {
+            margin-top: 2em;
+        }
+
+        #app {
+            grid-column-start: 1;
+        }
+
+        .brand-font {
+            font-family: 'Racing Sans One';
+        }
+
+        .brand-font em, .brand-color {
+            color: #ee5aee !important;
+        }
+
+        .wordmark {
+            font-size: 34px;
+            line-height: 72px;
+        }
+
+        .legal {
+            font-size: small;
+            color: #999999;
+        }
+
+        .divider {
+
+        }
+
+        .container {
+            width: auto !important;
+        }
+
+        span.line {
+            display: inline-block;
+        }
+
+        button {
+            color: rgb(255, 255, 255) !important;
+            font-size: 26px !important;
+
+            border-radius: 10px !important;
+            width: 100% !important;
+        }
+
+        button, button:hover, button:focus {
+            background-color: #DF17DF !important;
+        }
+
+        /*button{
+            background-color: aqua
+        }
+        button:visited{
+            background-color: yellow
+        }
+        button:hover {
+            background-color: skyblue
+        }
+        button:active{
+            background-color: pink;
+        }*/
+
+        .btn-caption {
+            text-align: center;
+            background-color: #dedede;
+            border-radius: 10px;
+        }
+        .btn-caption > button{
+            text-transform: uppercase;
+        }
+
+        .btn-caption > span {
+            color: #DF17DF;
+            font-style: italic;
+            font-size: 0.7em;
+            line-height: 5px;
+            font-weight: bold;
+
+            text-transform: lowercase;
+        }
+
+        .card-title {
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+            background-color: #ffffff;
+            width: 100%;
+        }
+
+        .card-image {
+            margin-top: 2em;
+        }
+
+        h1 {
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            font-size: 3.8rem !important;
+        }
+
+        ul, ol {
+            color: #666666;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 1.4em;
+        }
+
+        em {
+            font-size: larger;
+            line-height: 1em;
+        }
+
+        ul li i {
+            display: block;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: 3px;
+            text-align: center;
+            margin-right: 5px;
+            float: left;
+            border: 1px solid #ee5aee;
+            border-radius: 50%;
+            font-weight: bolder;
+            color: #74c36c;
+        }
+
+        ol {
+            max-width: 350px;
+            counter-reset: my-awesome-counter;
+            list-style: none;
+            padding-left: 40px;
+        }
+
+        ol li {
+
+            counter-increment: my-awesome-counter;
+            position: relative;
+        }
+
+        ol li::before {
+            content: counter(my-awesome-counter);
+            text-align: center;
+            color: #74c36c;
+            font-size: 1.5rem;
+            font-weight: lighter;
+            position: absolute;
+            --size: 30px;
+            left: calc(-1 * var(--size) - 10px);
+            line-height: var(--size);
+            width: var(--size);
+            height: var(--size);
+            top: 0;
+            /*transform: rotate(-10deg);*/
+            border-radius: 50%;
+            border: 1px solid #ee5aee;
+        }
+
+        .card .card-image .card-title {
+            padding: 0px 24px 0px 24px !important;
+        }
+
+        .no-buffer {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .nprogress-container {
+            /*position: absolute;*/
+        }
+
+        #nprogress .bar {
+            /* LIGHT GREEN #A6D46C */
+            /* DARK GREEN #408F4D */
+            /*border-left-color: #408F4D !important;*/
+            background: #A6D46C !important;
+        }
+
+        #nprogress .peg {
+            box-shadow: 0 0 10px #ee5aee, 0 0 5px #ee5aee !important;
+        }
+
+        #nprogress .spinner-icon {
+            border-top-color: #ee5aee !important;
+            border-left-color: #ee5aee !important;
+        }
+
+        .vue-dialog-button, .vue-dialog-button:hover {
+            background-color: #ffffff !important;
+            color: #000000 !important;
+        }</style><script>!function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '805467119954564');
+        fbq('track', 'PageView');</script><link href=/css/chunk-eebefc18.cfaa8a4d.css rel=prefetch><link href=/js/chunk-eebefc18.a923ebb3.js rel=prefetch><link href=/css/chunk-vendors.2965af6e.css rel=preload as=style><link href=/js/app.9d6119de.js rel=preload as=script><link href=/js/chunk-vendors.34b8203a.js rel=preload as=script><link href=/css/chunk-vendors.2965af6e.css rel=stylesheet></head><body><noscript><strong>We're sorry but RunningMoms doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div class="container nprogress-container"><div class=row><div id=logo class="col s12 center"><img src=/logo.png align=top alt="RunningMoms.com logo"><span class="brand-font brand-color wordmark">RunningMoms.com</span></div></div><div id=app></div><div class=row><div class="col s12 center legal">&copy;<script>document.write(new Date().getFullYear())</script>&nbsp;RunningMoms.com<br>Powered by <a href=https://trafficjam.io target=_blank>TrafficJam.io</a></div></div></div><script src=/js/chunk-vendors.34b8203a.js></script><script src=/js/app.9d6119de.js></script></body></html>
